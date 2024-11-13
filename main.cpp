@@ -79,13 +79,13 @@ void aufgabe7() {
 }
 
 void aufgabe8() {
-    double a = 0;
-    double y = 1;
+    float a = 0;
+    float y = 1;
 
     std::cout << "Beliebige Reelle Zahl als Startwert eingeben: ";
     std::cin >> a;
 
-    double x = a;
+    float x = a;
     while (x > y) {
         x = (x+y) / 2;
         y = a / x;
